@@ -20,7 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import UIKit
+@_exported import UIKit
 
 @objc public protocol Springable {
     var autostart: Bool  { get set }
